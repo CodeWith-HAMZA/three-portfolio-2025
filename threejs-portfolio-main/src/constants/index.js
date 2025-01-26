@@ -282,7 +282,7 @@ export const workExperiences = [
     name: 'WebSolveToday',
     pos: 'Web Developer - Onsite',
     duration: 'Jan 2022 - Dec 2023 (Hyderabad, Pakistan) - Onsite',
-    title: "",
+    title: "As a Web Developer at Vektify, I specialize in building dynamic and responsive user interfaces using React, ensuring seamless and engaging user experiences. My expertise extends to backend development with PHP and MySQL for efficient database management and server-side functionality. I am dedicated to writing clean, maintainable code and optimizing web applications for performance and scalability.",
     // reactIcon: <GoOrganization color="white" />,
     icon: null,
     
