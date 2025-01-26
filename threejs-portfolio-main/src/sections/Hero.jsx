@@ -36,10 +36,10 @@ const Hero = () => {
           <Suspense fallback={<CanvasLoader />}>
             {/* To hide controller */}
             <Leva hidden />
-            <PerspectiveCamera makeDefault position={[0, 0, 30]} />
+            <PerspectiveCamera makeDefault position={[0, 0, 40]} />
 
             <HeroCamera isMobile={isMobile}>
-              <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.1, -Math.PI, 0]} />
+              <HackerRoom scale={sizes.deskScale} position={sizes.deskPosition} rotation={[0.01, 0, 0.01]} />
             </HeroCamera>
 
             <group>
@@ -49,8 +49,8 @@ const Hero = () => {
               <Cube position={sizes.cubePosition} />
             </group>
 
-            <ambientLight intensity={1} />
-            <directionalLight position={[10, 10, 10]} intensity={0.5} />
+            <ambientLight intensity={.4} />
+            <directionalLight position={[10, 10, 8]} intensity={2} />
           </Suspense>
         </Canvas>
       </div>
