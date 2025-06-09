@@ -273,7 +273,7 @@ export const workExperiences = [
     name: 'Gmg Solutions',
     pos: 'Full Stack Engineer',
     duration: 'Mar 2024 - Sep 2024 (Hyderabad, Pakistan) - Onsite',
-    title: "As a Full Stack Engineer at Vektify, I specialize in creating responsive and high-performance mobile applications using React Native CLI, Expo, and native modules. My work involves optimizing builds with Gradle, developing reusable components, and efficiently managing application states with Redux or Context API. Additionally, I have experience working with Laravel to build robust backends, ensuring seamless integration between frontend and backend systems",
+    title: "As a Full Stack Engineer at Gmg Solutions, I specialize in creating responsive and high-performance mobile applications using React Native CLI, Expo, and native modules. My work involves optimizing builds with Gradle, developing reusable components, and efficiently managing application states with Redux or Context API. Additionally, I have experience working with Laravel to build robust backends, ensuring seamless integration between frontend and backend systems",
     icon: '/assets/gmg.jpeg',
     animation: 'clapping',
   },
@@ -282,7 +282,7 @@ export const workExperiences = [
     name: 'WebSolveToday',
     pos: 'Web Developer - Onsite',
     duration: 'Jan 2022 - Dec 2023 (Hyderabad, Pakistan) - Onsite',
-    title: "As a Web Developer at Vektify, I specialize in building dynamic and responsive user interfaces using React, ensuring seamless and engaging user experiences. My expertise extends to backend development with PHP and MySQL for efficient database management and server-side functionality. I am dedicated to writing clean, maintainable code and optimizing web applications for performance and scalability.",
+    title: "As a Web Developer at WebSolveToday, I specialize in building dynamic and responsive user interfaces using React, ensuring seamless and engaging user experiences. My expertise extends to backend development with PHP and MySQL for efficient database management and server-side functionality. I am dedicated to writing clean, maintainable code and optimizing web applications for performance and scalability.",
     // reactIcon: <GoOrganization color="white" />,
     icon: null,
     
