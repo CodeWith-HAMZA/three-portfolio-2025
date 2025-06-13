@@ -84,8 +84,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">My Passion for Coding</p>
               <p className="grid-subtext">
-                I love solving problems and building things through code. Programming isn&apos;t just my
-                profession—it&apos;s my passion. I enjoy exploring new technologies, and enhancing my skills.
+              I'm a passionate developer who thrives on building smart solutions across the digital landscape. Websites, tools, scripts, APIs, and even generative AI-powered chatbots by utilizing the frameworks, APIs like <b>Langchain, OpenAI, Gemini, etc</b>, I leverage cloud-native technologies to create innovative platforms that adapt and grow. Let's collaborate on your next digital adventure.
               </p>
             </div>
           </div>
