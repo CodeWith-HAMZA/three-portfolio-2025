@@ -24,7 +24,7 @@ const About = () => {
             <img src="assets/grid1.png" alt="grid-1" className="w-full sm:h-[276px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">Hi, I’m Hamza Jawaid</p>
+              <p className="grid-headtext">Hi, I'm Hamza Jawaid</p>
               <p className="grid-subtext">
                 With 4+ years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
                 and responsive websites.
@@ -47,7 +47,19 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize primarily in <b> JS Ecosystem with Typescript</b>, worked with <b>React, Next/Remix, Nodejs, Express, MongoDB, SQL, React Native (For Mobile Apps) </b>. <br/><br/>For Deployment, <b>AWS, Vercel, Docker Containers with CICD Pipelines.</b> <br/><br/>  Additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
+                I specialize primarily in <b className='text-neutral-300  '> JS Ecosystem with Typescript</b>, worked with  Modern Libraries & Frameworks <br/> 
+                <p className='text-white pt-2 flex flex-wrap gap-2 '>
+                  {/* make chips in span  */}
+                  {['React', 'Next', 'Nodejs', 'Express', 'MongoDB', 'SQL', 'React Native'].map((tech) => (
+                    <span
+                      key={tech}
+                      className="text-neutral-300 text-sm px-3 bg-neutral-800 py-0.5 rounded-full transition-all duration-200 cursor-pointer hover:bg-white hover:text-neutral-900 hover:scale-105 shadow-md"
+                    >
+                      {tech}
+                    </span>
+                  ))}
+                </p>
+                <br/>For Deployment, <b>AWS' EC2 Machines, Vercel, Docker Containers with CICD Pipelines.</b> <br/><br/>  Additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications.
               </p>
             </div>
@@ -70,7 +82,7 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I’m very flexible with time zone communications & locations</p>
+              <p className="grid-headtext">I'm very flexible with time zone communications & locations</p>
               <p className="grid-subtext">I&apos;m based in Karachi, Pakistan and open to remote work worldwide or onsite.</p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
@@ -82,7 +94,7 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Engineering</p>
+              <p className="grid-headtext">My Passion for Engineer</p>
               <p className="grid-subtext">
               I'm a passionate developer who thrives on building smart solutions across the digital landscape. Websites, tools, scripts, APIs, and even generative AI-powered chatbots by utilizing the frameworks, APIs like <b>Langchain, OpenAI, Gemini, etc</b>, I leverage cloud-native technologies to create innovative platforms that adapt and grow. Let's collaborate on your next digital adventure.
               </p>
