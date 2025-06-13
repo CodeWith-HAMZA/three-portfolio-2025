@@ -23,17 +23,17 @@ const Hero = () => {
 
   const sizes = calculateSizes(isSmall, isMobile, isTablet);
 
-  const typingText = useTypingEffect("Turning Dreams into Reality Problems into Solutions.", 100);
+  const typingText = useTypingEffect("Tuurning Dreams into Reality, Problems into Solutions.", 100);
 
   return (
     <section className="min-h-screen w-full flex flex-col relative" id="home">
-      <div className="w-full mx-auto flex flex-col sm:mt-36 mt-[13rem] c-space gap-3 ">
+      <div className="w-full mx-auto flex flex-col sm:mt-[12rem] mt-[13rem] c-space gap-3 ">
         <p className="sm:text-3xl text-xl font-medium text-white text-center font-generalsans">
           Hi, I'm Hamza <span className="waving-hand">👋</span>
 
         </p>
         <p className="hero_tag text-gray_gradient " > Full Stack Engineer</p>
-        <p className="text-neutral-500 text-lg font-normal text-center">{typingText}</p>
+        <p className="text-neutral-500 text-xl font-normal text-center -mt-4">{typingText}</p>
         {/* <p className="hero_tag text-gray_gradient -mt-6 " style={{fontSize: '2.5rem'}}>Building Products and Brands </p> */}
       </div>
 
