@@ -17,8 +17,8 @@ const HeroCamera = ({ isMobile, children }) => {
   }
   // same for x axis
   const getXAxisValue = (mouseX) => {
-    const minX = -0.8;
-    const maxX = 0.09;
+    const minX = -0.5;
+    const maxX = 0.03;
     const range = maxX - minX;
     return minX + (mouseX * range);
   }
