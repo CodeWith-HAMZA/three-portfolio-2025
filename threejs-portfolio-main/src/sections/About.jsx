@@ -47,7 +47,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize primarily in React.js with Typescript, additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
+                I specialize primarily in JS Ecosystem with Typescript, additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications
               </p>
             </div>
