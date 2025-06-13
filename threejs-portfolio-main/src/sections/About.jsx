@@ -47,7 +47,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize primarily in <b> JS Ecosystem with Typescript</b>, <b>worked with React, Next/Remix, Nodejs, Express, MongoDB, SQL, React Native (For Mobile Apps) </b>. <br/><br/>For Deployment, <b>AWS, Vercel, Docker Containers with CICD Pipelines.</b> <br/><br/>  Additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
+                I specialize primarily in <b> JS Ecosystem with Typescript</b>, worked with <b>React, Next/Remix, Nodejs, Express, MongoDB, SQL, React Native (For Mobile Apps) </b>. <br/><br/>For Deployment, <b>AWS, Vercel, Docker Containers with CICD Pipelines.</b> <br/><br/>  Additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications.
               </p>
             </div>
@@ -82,7 +82,7 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Coding</p>
+              <p className="grid-headtext">My Passion for Engineering</p>
               <p className="grid-subtext">
               I'm a passionate developer who thrives on building smart solutions across the digital landscape. Websites, tools, scripts, APIs, and even generative AI-powered chatbots by utilizing the frameworks, APIs like <b>Langchain, OpenAI, Gemini, etc</b>, I leverage cloud-native technologies to create innovative platforms that adapt and grow. Let's collaborate on your next digital adventure.
               </p>
