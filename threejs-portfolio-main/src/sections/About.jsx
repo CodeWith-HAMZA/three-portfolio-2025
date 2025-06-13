@@ -47,7 +47,7 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize primarily in <b> JS Ecosystem with Typescript</b>, <b>worked with React, Next/Remix, React Native (For Mobile Apps) </b> additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
+                I specialize primarily in <b> JS Ecosystem with Typescript</b>, <b>worked with React, Next/Remix, Nodejs, Express, MongoDB, SQL, React Native (For Mobile Apps) </b>. <br/><br/>For Deployment, <b>AWS, Vercel, Docker Containers with CICD Pipelines.</b> <br/><br/>  Additionally in a variety of languages, frameworks, and tools that allow me to build robust and scalable
                 applications.
               </p>
             </div>
