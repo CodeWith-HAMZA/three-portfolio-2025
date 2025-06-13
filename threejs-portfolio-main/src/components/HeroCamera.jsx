@@ -8,8 +8,8 @@ const HeroCamera = ({ isMobile, children }) => {
   const getYAxisValue = (mouseY) => {
     // Convert mouse Y position from screen coordinates (0 to 1) to our desired range
     // mouseY is normalized from 0 (top) to 1 (bottom)
-    const minY = -0.3;
-    const maxY = 0.4;
+    const minY = -0.1;
+    const maxY = 0.1;
     const range = maxY - minY;
     
     // Linear interpolation between min and max based on mouse position
@@ -17,8 +17,8 @@ const HeroCamera = ({ isMobile, children }) => {
   }
   // same for x axis
   const getXAxisValue = (mouseX) => {
-    const minX = -0.5;
-    const maxX = 0.5;
+    const minX = -0.8;
+    const maxX = 0.09;
     const range = maxX - minX;
     return minX + (mouseX * range);
   }
