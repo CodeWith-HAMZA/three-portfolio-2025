@@ -47,10 +47,10 @@ const About = () => {
             <div>
               <p className="grid-headtext">Tech Stack</p>
               <p className="grid-subtext">
-                I specialize primarily in <b className='text-neutral-300  '> JS Ecosystem with Typescript</b>, worked with  Modern Libraries & Frameworks <br/> 
+                I specialize primarily in <b className='text-neutral-300  '> JS Ecosystem with Typescript</b>, Here are a few technologies I’ve been working with recently: <br/> 
                 <p className='text-white pt-2 flex flex-wrap gap-2 '>
                   {/* make chips in span  */}
-                  {['JS(ES6+)', 'TS',  'React', 'Node.js', 'Next', 'SQL', 'MongoDB', 'React Native'].map((tech) => (
+                  {['JS (ES6+)', 'TS',  'React', 'Node.js', 'Next', 'SQL', 'MongoDB', 'React Native'].map((tech) => (
                     <span
                       key={tech}
                       className="text-neutral-300 text-sm px-3 bg-neutral-800 py-0.5 rounded-full transition-all duration-200 cursor-pointer hover:bg-white hover:text-neutral-900 hover:scale-105 shadow-md"
