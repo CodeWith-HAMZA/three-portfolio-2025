@@ -26,8 +26,8 @@ const About = () => {
             <div>
               <p className="grid-headtext">Hi, I'm Hamza Jawaid</p>
               <p className="grid-subtext">
-                With 4+ years of experience, I have honed my skills in both frontend and backend dev, creating dynamic
-                and responsive websites.
+              I have rich experience in the MERN & T3 stack, React Native Mobile Development. My current focus these days is on expanding my portfolio by building more projects that I can add on here, as well as being a great team player at my current role.
+
               </p>
             </div>
           </div>
@@ -50,7 +50,7 @@ const About = () => {
                 I specialize primarily in <b className='text-neutral-300  '> JS Ecosystem with Typescript</b>, worked with  Modern Libraries & Frameworks <br/> 
                 <p className='text-white pt-2 flex flex-wrap gap-2 '>
                   {/* make chips in span  */}
-                  {['React', 'Next', 'Nodejs', 'Express', 'MongoDB', 'SQL', 'React Native'].map((tech) => (
+                  {['JS(ES6+)', 'TS',  'React', 'Node.js', 'Next', 'SQL', 'MongoDB', 'React Native'].map((tech) => (
                     <span
                       key={tech}
                       className="text-neutral-300 text-sm px-3 bg-neutral-800 py-0.5 rounded-full transition-all duration-200 cursor-pointer hover:bg-white hover:text-neutral-900 hover:scale-105 shadow-md"
@@ -82,8 +82,9 @@ const About = () => {
               />
             </div>
             <div>
-              <p className="grid-headtext">I'm very flexible with time zone communications & locations</p>
-              <p className="grid-subtext">I&apos;m based in Karachi, Pakistan and open to remote work worldwide or onsite.</p>
+              <p className="grid-headtext">Flexibility</p>
+              <p className="grid-subtext">I'm based in Karachi, Pakistan. Enrolled in Sindh University Of Pakistan, where I'm doing my bachelor's in Software Engineering.
+              </p>
               <Button name="Contact Me" isBeam containerClass="w-full mt-10" />
             </div>
           </div>
@@ -94,7 +95,7 @@ const About = () => {
             <img src="assets/grid3.png" alt="grid-3" className="w-full sm:h-[266px] h-fit object-contain" />
 
             <div>
-              <p className="grid-headtext">My Passion for Engineer</p>
+              <p className="grid-headtext">My passion as an Engineer</p>
               <p className="grid-subtext">
               I'm a passionate developer who thrives on building smart solutions across the digital landscape. Websites, tools, scripts, APIs, and even generative AI-powered chatbots by utilizing the frameworks, APIs like <b>Langchain, OpenAI, Gemini, etc</b>, I leverage cloud-native technologies to create innovative platforms that adapt and grow. Let's collaborate on your next digital adventure.
               </p>
