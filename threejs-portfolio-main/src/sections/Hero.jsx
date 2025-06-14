@@ -33,7 +33,7 @@ const Hero = () => {
 
         </p>
         <p className="hero_tag text-gray_gradient " > Full Stack Engineer</p>
-        <p className="text-neutral-500 text-xl font-normal text-center -mt-4">{typingText}</p>
+        <p className="text-neutral-500 text-xl font-normal text-center -mt-4">Turning Dreams into Reality, Problems into Solutions.</p>
         {/* <p className="hero_tag text-gray_gradient -mt-6 " style={{fontSize: '2.5rem'}}>Building Products and Brands </p> */}
       </div>
 
